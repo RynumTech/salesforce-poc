@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>POC_Active__c</fullName>
     <defaultValue>true</defaultValue>
-    <label>POC Update</label>
+    <label>POC Update by Shubham </label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>
