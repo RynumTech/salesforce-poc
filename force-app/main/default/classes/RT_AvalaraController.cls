@@ -28,6 +28,7 @@ public without sharing class RT_AvalaraController {
             CartDeliveryGroup deliveryGroup = !groups.isEmpty() ? groups[0] : null;
 
             // Direct Query for Items
+            //sample text 
             List<CartItem> cartItems = [SELECT Id, Name, Quantity, TotalPrice, Product2.Avalara_Tax_Code__c, Product2.ProductCode 
                                         FROM CartItem WHERE CartId = :cartId AND Type = 'Product' AND TotalPrice > 0];
 
